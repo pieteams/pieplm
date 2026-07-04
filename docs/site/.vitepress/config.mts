@@ -23,7 +23,7 @@ export default defineConfig({
   ],
   themeConfig: {
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/pieteams/pie-plm' }
+      { icon: 'github', link: 'https://github.com/pieteams/pieplm' }
     ],
     footer: {
       message: 'Released under the MIT License.',
