@@ -13,12 +13,12 @@ export default defineConfig({
     /localhost/,
   ],
   head: [
-    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-1Y1T2PKDVV' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-HWD1L3DX4N' }],
     ['script', {}, `
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-1Y1T2PKDVV');
+      gtag('config', 'G-HWD1L3DX4N');
     `]
   ],
   themeConfig: {
