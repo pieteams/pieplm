@@ -18,7 +18,7 @@ hero:
       link: /zh-CN/guide/architecture
     - theme: alt
       text: GitHub
-      link: https://github.com/pieteams/pie-plm
+      link: https://github.com/pieteams/pieplm
 
 features:
   - title: AI/ML 驱动
