@@ -3,9 +3,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'PiePLM',
   description: 'Empowering SMEs with Product Lifecycle Management',
-  base: '/pie-plm/',
+  base: '/pieplm/',
   sitemap: {
-    hostname: 'https://pieteams.github.io/pie-plm/',
+    hostname: 'https://pieteams.github.io/pieplm/',
   },
   cleanUrls: true,
   lastUpdated: true,
