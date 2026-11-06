@@ -19,14 +19,15 @@ export default defineConfig({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-HWD1L3DX4N');
-    `]
+    `],
+    ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3177606357477709', crossorigin: 'anonymous' }],
   ],
   themeConfig: {
     socialLinks: [
       { icon: 'github', link: 'https://github.com/pieteams/pieplm' }
     ],
     footer: {
-      message: 'Released under the MIT License.',
+      message: 'Released under the MIT License. <a href="https://pieteams.github.io/privacy">Privacy Policy</a>',
       copyright: 'Copyright © 2024-present Jasen Han'
     },
     search: {
@@ -54,6 +55,8 @@ export default defineConfig({
             link: '/reference/config',
             activeMatch: '/reference/',
           },
+          { text: 'PieTeams', link: 'https://pieteams.github.io/' },
+          { text: 'Privacy', link: 'https://pieteams.github.io/privacy' },
         ],
         sidebar: {
           '/getting-started/': [
@@ -125,6 +128,8 @@ export default defineConfig({
             link: '/zh-CN/reference/config',
             activeMatch: '/zh-CN/reference/',
           },
+          { text: 'PieTeams', link: 'https://pieteams.github.io/' },
+          { text: '隐私政策', link: 'https://pieteams.github.io/privacy' },
         ],
         sidebar: {
           '/zh-CN/getting-started/': [

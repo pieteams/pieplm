@@ -1,5 +1,7 @@
 # Architecture
 
+> **Status:** PiePLM is in the design phase. This page describes the intended architecture, not a shipped implementation. Names and components may change before the first release.
+
 PiePLM follows a modular, layered architecture designed for extensibility and maintainability.
 
 ## System Overview
