@@ -129,7 +129,7 @@ export default defineConfig({
             activeMatch: '/zh-CN/reference/',
           },
           { text: 'PieTeams', link: 'https://pieteams.github.io/' },
-          { text: '隐私政策', link: 'https://pieteams.github.io/privacy' },
+          { text: 'Privacy Policy', link: 'https://pieteams.github.io/privacy' },
         ],
         sidebar: {
           '/zh-CN/getting-started/': [
