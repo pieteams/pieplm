@@ -9,6 +9,9 @@ permissions:
 
 jobs:
   label:
+    # Fork PRs get a read-only GITHUB_TOKEN, so adding labels fails with
+    # "Resource not accessible by integration". Skipping is better than failing.
+    if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - name: Label PR by title prefix
