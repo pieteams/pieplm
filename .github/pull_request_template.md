@@ -8,9 +8,8 @@
 
 ## Testing
 
-- [ ] `CGO_ENABLED=1 go build -tags fts5 ./...` passes
-- [ ] `CGO_ENABLED=1 go test -tags fts5 ./...` passes
-- [ ] Manually tested on macOS / Linux (if applicable)
+- [ ] `pnpm install --frozen-lockfile` passes (run in `docs/site`)
+- [ ] `pnpm docs:build` passes (run in `docs/site`)
 
 ## Related Issues
 
